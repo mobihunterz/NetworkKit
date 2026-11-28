@@ -217,7 +217,7 @@ let posts = try await client.execute(
 
 ---
 
-## NetworkKit vs. Alamofire vs. URLSession
+## NetworkKit vs. Alamofire
 
 All three examples below do the same thing: `GET https://api.example.com/posts`, verify a `2xx` status, and decode the result into `[PostDTO]`.
 
